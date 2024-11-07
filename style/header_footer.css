@@ -1,0 +1,92 @@
+/*Header*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0e0c14;
+}
+
+body {
+    font-family:Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    background-color: #0e0c14;
+    color: #fff;
+}
+
+h1, h2, h3, h4, p {
+    color: #fff;
+}
+
+/*Navigation bar*/
+
+#logo_bm_main {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-right: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition-duration: .3s;
+    padding: 4px 15px;
+}
+
+nav a:hover {
+    color: #e8886d;
+    font-size: 22px;
+    border-bottom: 3px solid #e8886d;
+}
+
+/*Footer*/
+
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer ul{
+    margin: 2em;
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    flex-direction: row;     
+}
+
+.social_network_item img{
+    width: 2em;
+    height: 2em;
+    transition-duration: .3s;      
+}
+
+.social_network_item img:hover{
+    width: 2em;
+    height: 2em;
+    scale: 1.2;  
+}
+
+footer p {
+    margin-bottom: 2em;;
+}

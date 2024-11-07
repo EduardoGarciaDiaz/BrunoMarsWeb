@@ -1,0 +1,137 @@
+/* Front page */
+
+#about_section {
+    position: relative;
+}
+
+#about_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    top: 100px;
+    margin: 0 150px;
+    background: transparent;
+}
+
+#img_tour_bg {
+    width: 100%; 
+    height: 700px; 
+    filter: brightness(40%); 
+    z-index: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+#txt_about_tour {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 60%;
+    background-color: transparent;
+    z-index: 1;
+}
+
+#txt_about_tour h1 {
+    font-size: 5em;
+    background-color: transparent;
+}
+
+#txt_about_tour p {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+#txt_about_tour h2 {
+    font-size: 3em;
+    background-color: transparent;
+    color: #ff1c03;
+    margin-top: 1.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1); 
+}
+
+#img_mars_planet {
+    width: 500px;
+    background: transparent;
+    margin-left: 100px ;
+}
+
+/* Concerts */
+
+#concerts_header {
+    font-size: 2.5em;
+    margin: 2em 0em 0 4em;
+}
+
+.concerts_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 1.5em 5em 1em 5em;
+    width: 90%;
+    height: auto;
+}
+
+.concert_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 270px;
+    width: 24%;
+    flex-direction: column;
+    margin: 2em;
+    padding: .3em;
+    border-radius: 10px;
+    background-color: #251458;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.concert_card img {
+    border-radius: 10px;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 250px;
+    transition-duration: 5s;
+}
+
+.concert_card h2, p {
+    background-color: transparent;
+}
+
+p.concert_date {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.concert_card:hover {
+    background-color: #0880ae;
+    transition-duration: .5s;
+    scale: 1.1;
+}
+
+#img_tour_bg {
+    width: 100%;
+}
+
+#more_concerts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#more_concerts h4 {
+    font-size: 35px;
+    margin-top: 1em;
+}
+
+#more_concerts p {
+    font-size: 18px;
+    margin-top: 1em;
+    font-style: oblique;
+}
